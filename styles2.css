@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 * {
-    font-family:'Darker Grotesque', sans-serif;
+    /* font-family:'Darker Grotesque', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -71,19 +74,33 @@ nav {
     transition: all 0.3s ease;
 }
 
+#landing {
+    height: 40vh;
+    margin-top: 20px;
+    
+}
+
 #landing-text {
     display: flex;
     height: 30vh;
+    flex: 0 1 50vw;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding: 1rem;
     color: #ff7b54;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
 }
 
 #landing h1 {
     font-size: 3rem;
+    font-weight: bold;
+}
+
+#landing h2 {
+    font-size: 2rem;
 }
 
 img {
@@ -92,7 +109,7 @@ img {
     align-items: center;
     margin: auto;
     object-fit: cover;
-    /* width: 90%; */
+   
 }
 
 .image-resize {
